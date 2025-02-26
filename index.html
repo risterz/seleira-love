@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleira, My Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="petal-container"></div>
+    
+    <!-- Added background decorative elements -->
+    <div class="background-decorations">
+        <div class="bg-element heart1">❤</div>
+        <div class="bg-element heart2">❤</div>
+        <div class="bg-element heart3">❤</div>
+        <div class="bg-element seleira-text text1">Seleira</div>
+        <div class="bg-element seleira-text text2">My Love</div>
+    </div>
+    
+    <header>
+        <div class="light-particles" id="lightParticles"></div>
+        <div class="header-content">
+            <h1>
+                <span class="name-part">Seleira,</span>
+                <i class="fas fa-heart heart-icon"></i>
+                <span class="love-part">My Love</span>
+            </h1>
+            <p class="subtitle">A place where my love for Seleira blossoms with every heartbeat</p>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <h2>About Me and Seleira</h2>
+        <div class="about-content">
+            <p>My journey with Seleira is filled with unforgettable moments. Each day with her is a treasure that I hold close to my heart.</p>
+            <!-- Add more personal content about your relationship with Seleira -->
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <h2>Seleira's Precious Moments <i class="fas fa-heart"></i></h2>
+        <div class="gallery-container">
+            <!-- First image -->
+            <div class="gallery-item">
+                <img src="images/1.png" alt="Seleira's First Date">
+                <div class="caption">I</div>
+            </div>
+            
+            <!-- Second image -->
+            <div class="gallery-item">
+                <img src="images/2.png" alt="Seleira's Beautiful Memories">
+                <div class="caption">Love</div>
+            </div>
+            
+            <!-- Third image -->
+            <div class="gallery-item">
+                <img src="images/3.png" alt="Sunset With Seleira">
+                <div class="caption">You</div>
+            </div>
+            
+            <!-- Fourth image -->
+            <div class="gallery-item">
+                <img src="images/4.png" alt="Lovely Day With Seleira">
+                <div class="caption">Epal</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="message love-letter" id="message-section">
+        <div class="parchment-overlay"></div>
+        <div class="letter-content">
+            <h2>Write a Love Letter to Seleira <i class="fas fa-heart"></i></h2>
+            <form id="messageForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="How should Seleira know you?" required>
+                    <div class="ink-line"></div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Where can she reach you?" required>
+                    <div class="ink-line"></div>
+                </div>
+                <div class="form-group message-area">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="8" placeholder="Share your thoughts with Seleira..." required></textarea>
+                    <div class="letter-lines"></div>
+                </div>
+                <button type="submit" class="btn wax-seal">
+                    <span>Seal with Love</span>
+                    <i class="fas fa-heart"></i>
+                </button>
+            </form>
+        </div>
+        <div class="floating-elements"></div>
+        <div class="corner-fold"></div>
+    </section>
+
+    <div class="scrolling-rose" id="scrollingRose">
+        <div class="rose-container">
+            <i class="fas fa-heart"></i>
+            <span class="rose-name">Seleira</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created with love for Seleira &copy; <span id="year"></span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
